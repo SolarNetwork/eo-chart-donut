@@ -46,8 +46,7 @@ would produce a chart like this:
 
 # Building from source
 
-To build yourself, clone or download this repository. You need to have
-Node 16+ installed. Then:
+To build yourself, clone or download this repository. You need to have Node 18+ installed. Then:
 
 ```sh
 # initialize dependencies
