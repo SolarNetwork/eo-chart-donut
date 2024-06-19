@@ -1,6 +1,6 @@
 # Energise Ōtaki: Donut Chart
 
-This project is a small web app to render of an instantaneous meter reading datum stream from SolarNetwork as a "donut" style gauge chart.
+This project is a small web app to render of an instantaneous property of a datum stream from SolarNetwork as a "donut" style gauge chart.
 
 You can see the chart in action here:
 
