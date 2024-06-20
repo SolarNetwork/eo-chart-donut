@@ -31,9 +31,17 @@ export function renderChart(
 			max: config.maxValue,
 			width: config.barWidth,
 			label: {
+				format: function (value, _ratio) {
+					return value + " " + config.units;
+				},
 				extents: function () {
 					return "";
 				},
+			},
+		},
+		arc: {
+			rangeText: {
+				unit: "absolute",
 			},
 		},
 		color: {

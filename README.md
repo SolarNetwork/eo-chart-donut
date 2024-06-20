@@ -22,6 +22,7 @@ Various aspects of the chart can be customised via URL query parameters.
 | `propName`         | `watts`               | The datum stream property name to display.                                                                                                       |
 | `displayName`      | Power (kW)            | The property display name, shown in the tooltip when hovering over the active portion of the chart.                                              |
 | `scale`            | 1000                  | A value to divide raw property values by, to convert to the desired display scale. For example the default scale `1000` converts W values to kW. |
+| `units`            | `kW`                  | The units to display with the value.                                                                                                             |
 | `minValue`         | 0                     | The minimum overall value, expressed in display scale units.                                                                                     |
 | `maxValue`         | 10                    | The maximum overall value, expressed in display scale units.                                                                                     |
 | `barWidth`         | 50                    | The width of the donut, in pixels.                                                                                                               |

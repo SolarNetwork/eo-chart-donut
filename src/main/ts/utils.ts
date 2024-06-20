@@ -18,6 +18,7 @@ export interface SeriesConfig {
 	displayName?: string;
 
 	scale?: number;
+	units?: string;
 	minValue?: number;
 	maxValue?: number;
 
@@ -44,6 +45,7 @@ export function seriesConfig(config?: SeriesConfig): Required<SeriesConfig> {
 		propName: config?.propName || "watts",
 		displayName: config?.displayName || "Power (kW)",
 		scale: config?.scale || 1000,
+		units: config?.units || "kW",
 		minValue: config?.minValue || 0,
 		maxValue: config?.maxValue || 10,
 		barWidth: config?.barWidth || 50,
