@@ -31,8 +31,15 @@ export function renderChart(
 			max: config.maxValue,
 			width: config.barWidth,
 			label: {
-				format: function (value, _ratio) {
-					return value + " " + config.units;
+				format: function (value, ratio) {
+					return (
+						value +
+						" " +
+						config.units +
+						"\n" +
+						(ratio * 100).toFixed(1) +
+						"%"
+					);
 				},
 				extents: function () {
 					return "";
