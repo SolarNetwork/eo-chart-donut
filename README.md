@@ -24,7 +24,7 @@ Various aspects of the chart can be customised via URL query parameters.
 | `scale`            | 1000                  | A value to divide raw property values by, to convert to the desired display scale. For example the default scale `1000` converts W values to kW. |
 | `units`            | `kW`                  | The units to display with the value.                                                                                                             |
 | `minValue`         | 0                     | The minimum overall value, expressed in display scale units.                                                                                     |
-| `maxValue`         | 10                    | The maximum overall value, expressed in display scale units.                                                                                     |
+| `maxValue`         | 24                    | The maximum overall value, expressed in display scale units.                                                                                     |
 | `barWidth`         | 50                    | The width of the donut, in pixels.                                                                                                               |
 | `width`            | 300                   | The overall width of the chart, in pixels.                                                                                                       |
 | `cornerRadius`     | 0                     | If greater than `0`, a bar width ratio to round the bar endcap corners by. For example `0.5` would result in a semi-circle endcap appearance.    |

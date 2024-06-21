@@ -47,7 +47,7 @@ export function seriesConfig(config?: SeriesConfig): Required<SeriesConfig> {
 		scale: config?.scale || 1000,
 		units: config?.units || "kW",
 		minValue: config?.minValue || 0,
-		maxValue: config?.maxValue || 10,
+		maxValue: config?.maxValue || 24,
 		barWidth: config?.barWidth || 50,
 		width: config?.width || 300,
 		cornerRadius: config?.cornerRadius || 0,
