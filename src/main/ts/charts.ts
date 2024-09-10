@@ -59,6 +59,7 @@ export function renderChart(
 		},
 		size: {
 			width: config.width,
+			height: config.height,
 		},
 		tooltip: {
 			format: {

@@ -27,6 +27,7 @@ Various aspects of the chart can be customised via URL query parameters.
 | `maxValue`         | 24                    | The maximum overall value, expressed in display scale units.                                                                                     |
 | `barWidth`         | 50                    | The width of the donut, in pixels.                                                                                                               |
 | `width`            | 300                   | The overall width of the chart, in pixels.                                                                                                       |
+| `height`           | 300                   | The overall height of the chart, in pixels.                                                                                                      |
 | `cornerRadius`     | 0                     | If greater than `0`, a bar width ratio to round the bar endcap corners by. For example `0.5` would result in a semi-circle endcap appearance.    |
 | `color`            | `#008000`             | The bar color, as a CSS color value.                                                                                                             |
 | `backgroundColor`  | `#FFFFFF`             | The page background color, as a CSS color value.                                                                                                 |

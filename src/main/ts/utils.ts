@@ -24,6 +24,7 @@ export interface SeriesConfig {
 
 	barWidth?: number;
 	width?: number;
+	height?: number;
 	cornerRadius?: number;
 
 	color?: string;
@@ -50,6 +51,7 @@ export function seriesConfig(config?: SeriesConfig): Required<SeriesConfig> {
 		maxValue: config?.maxValue || 24,
 		barWidth: config?.barWidth || 50,
 		width: config?.width || 300,
+		height: config?.height || 300,
 		cornerRadius: config?.cornerRadius || 0,
 		color: config?.color || "#008000",
 		backgroundColor: config?.backgroundColor || "#FFFFFF",
